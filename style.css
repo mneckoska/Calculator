@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+.result 
+{
+    background-color:black;
+    border: 1px solid black;
+    height:50px;
+    width:18%;
+    color: white;
+   
+}
+.calc
+{    
+    width:18%;
+    height:100%;
+}
+.calc .number-first {
+    height: 50px;
+    font-weight: bold;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+}
+
+.btn{    
+    font-weight: bold;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 0.5px solid black;
+}
+.btn:hover{
+background-color:lightgray;
+}
+.calc .number-last
+{
+    height: 50px;
+    font-weight: bold;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.calc .numbers
+{
+    height: 50px;
+    display: flex;
+    
+}
+.number-first 
+{
+    display:flex;
+    border:1px solid gray;      
+}
+
+.clear
+{
+    width:50%;     
+}
+.backspace
+{
+    width:25%;     
+}
+.division
+{
+    width:25%;
+   
+}
+.numbers .btn
+{
+    width:25%;
+}
+.zero
+{
+    width:75%;
+}
+.equal
+{
+    width:25%;
+}
+.number-last
+{
+    display: flex;
+    background-color:lightgray;    
+}
+.number-last .zero{
+    font-weight: bold;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+.number-last .equal
+{
+    font-weight: bold;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+.number-first .division
+{
+    background-color: #df974c;
+    color:white;
+}
+.calc .btn:last-child
+{   
+    background-color:#df974c;
+    color:white;
+}
+.number-last .equal
+{
+    background-color: #df974c;
+    color:white;
+
+}
+.calc .btn:last-child:hover
+{
+    background-color:lightgray;
+}
